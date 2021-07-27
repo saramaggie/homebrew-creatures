@@ -1,0 +1,67 @@
+{
+	"name": "Warforged Charger",
+	"page": "0",
+	"size": "Large",
+	"type":
+	{
+		"type": "Construct",
+		"tags": ["Living construct"]
+	},
+	"alignment": ["L", "N"],
+	"ac": [
+	{
+		"ac": 17,
+		"from": ["Natural Armor"]
+	}],
+	"hp":
+	{
+		"average": 61,
+		"formula": "11d10"
+	},
+	"speed":
+	{},
+	"str": 18,
+	"dex": 10,
+	"con": 17,
+	"int": 6,
+	"wis": 8,
+	"save":
+	{},
+	"skill":
+	{},
+	"senses": [],
+	"passive": 10,
+	"immune": [],
+	"conditionImmune": ["Exhaustion", "Poisoned"],
+	"languages": ["Common"],
+	"trait": [
+	{
+		"name": "Adamantine Armouring",
+		"entries": ["The warforged charger's weapon attacks are adamantine.\nAlso, critical hits against it don't double the damage dice, although they may trigger other effects."]
+	},
+	{
+		"name": "Powerful Charge",
+		"entries": ["If the warforged charge moves at least 15 feet straight towards a target and then hits it with a slam attack on the same turn, the target takes an extra 4 (1d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone."]
+	}],
+	"action": [
+	{
+		"name": "Multiattack",
+		"entries": ["The warforged charger makes two slam attacks."]
+	},
+	{
+		"name": "Slam",
+		"entries": ["<i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one creature. <i>Hit:</i> 13 (2d8 + 4) bludgeoning damage."]
+	}],
+	"reaction": [],
+	"legendary": [],
+	"legendaryGroup": null,
+	"environment": [],
+	"soundClip": null,
+	"traitTags": ["Adamantine Armouring", "Powerful Charge"],
+	"senseTags": null,
+	"actionTags": ["Multiattack", "Slam"],
+	"damageTags": null,
+	"miscTags": null,
+	"conditionInflict": null,
+	"conditionInflictLegendary": null
+}
